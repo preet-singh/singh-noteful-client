@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "alias": "my-noteful-app",
-  "name": "noteful-app",
+  "alias": "preet-noteful-client",
+  "name": "noteful-client",
   "routes": [
-    {
-      "src": "^/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": ".*",
-      "dest": "/index.html"
-    }
+      {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+      },
+      {
+          "src": ".*",
+          "dest": "/index.html"
+      }
   ]
 }
